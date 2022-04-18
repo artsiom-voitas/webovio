@@ -7,4 +7,43 @@
         position: relative;
         z-index: 1;
     }
+
+    &__subtitle {
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-bottom: 22px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 74px;
+        color: #FFFFFF;
+        max-width: 616px;
+        margin-bottom: 24px;
+    }
+
+    &__description {
+        max-width: 581px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+        margin-bottom: 45px;
+    }
+}
+
+.link {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #D4D6D4;
+}
+
+.link--yellow {
+    color: #FFD723;
 }
