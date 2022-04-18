@@ -1,0 +1,37 @@
+.logo {
+
+    & {
+        display: flex;
+    }
+
+    &__image {
+        display: inline-block;
+        position: relative;
+        width: 29.21px;
+        height: 24.35px;
+        margin-left: 12.78px;
+    }
+
+    &__image--center {
+        margin-top: 4.27px;
+        z-index: 0;
+    }
+
+    &__image--left {
+        position: absolute;
+        z-index: -1;
+        right: 0px;
+        top: 4.27px;
+    }
+
+    &__image--right {
+        position: absolute;
+        z-index: -2;
+        left: 0px;
+        top: 4.27px;
+    }
+
+    &__name {
+        margin-left: 24.21px;
+    }
+}

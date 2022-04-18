@@ -1,3 +1,46 @@
-header {
+.header {
+    & {
+        padding-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__burger {
+        background: #F5F6F7;
+        border-radius: 50px;
+        position: relative;
+        width: 40px;
+        height: 40px;
+    }
+
+    &__burger:hover {
+        cursor: pointer;
+    }
+
+    &__slider {
+        display: flex;
+        flex-direction: column;
+        border-top: 1.8px solid rgb(0, 0, 0);
+        min-width: 18px;
+        position: absolute;
+        top: 14px;
+        left: 11px;
+
+    }
     
+    &__slider::before {
+        content: "";
+        border-bottom: 1.8px solid rgb(0, 0, 0);
+        margin-top: 3.6px;
+        min-width: 18px;
+    }
+    
+    &__slider::after {
+        content: "";
+        border-bottom: 1.8px solid rgb(0, 0, 0);
+        margin-top: 3.6px;
+        min-width: 18px;
+    }
+
 }
