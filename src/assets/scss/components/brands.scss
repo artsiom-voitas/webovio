@@ -1,0 +1,29 @@
+.brands {
+    &__body {
+        min-height: 227px;
+        min-width: 1276px;
+        background: #FFFFFF;
+        box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+        border-radius: 2px;
+        position: absolute;
+        right: 0;
+        bottom: -124px;
+        flex: 1 0 calc((100% - 66px)/4);
+        max-width: calc((100% - 66px)/4);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__imgs {
+        margin-top: 60px;
+        margin-left: 65px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 66px;
+    }
+
+    &__imgs--opacity {
+        opacity: 0.626;
+    }
+    
+}
