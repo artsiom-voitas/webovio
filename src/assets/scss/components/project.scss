@@ -1,0 +1,21 @@
+.project {
+    & {
+        border-top: 1px solid rgba(33, 56, 66, 0.0955529);
+        border-bottom: 1px solid rgba(33, 56, 66, 0.0955529);
+        margin-top: 184px;
+        padding-top: 150px;
+    }
+
+    &__about {
+        margin-bottom: 110px;
+    }
+}
+
+.about {
+    &__subtitle--small {
+        max-width: 325px;
+    }
+    &__description--small {
+        max-width: 518px;
+    }
+}
