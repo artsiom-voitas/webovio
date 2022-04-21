@@ -12,10 +12,10 @@
         max-width: calc((100% - 66px)/4);
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
     }
 
     &__imgs {
-        margin-top: 60px;
         margin-left: 65px;
         display: flex;
         flex-wrap: wrap;

@@ -1,0 +1,59 @@
+.commentary {
+    &__text {
+        font-family: 'Poppins';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #4D533C;
+    }
+    
+    &__text--big {
+        font-size: 24px;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+
+    &__img {
+        border-radius: 50px;
+        box-shadow: 20px 25px 43px rgba(0, 0, 0, 0.18);
+    }
+
+    &__name {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4D533C;
+    }
+
+    &__name--big {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    &__post {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        color: #152934;
+    }
+    
+    &__post--big {
+        font-size: 16px;
+        line-height: 24px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    &__person {
+        display: flex;
+        justify-content: space-between;
+        max-width: 220px;
+    }
+
+    &__person--big {
+        max-width: 358px;
+    }
+}
