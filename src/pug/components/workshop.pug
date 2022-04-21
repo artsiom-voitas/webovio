@@ -1,0 +1,33 @@
+include ../mixins/workshop-box.pug
+
+.workshop.container
+    h2.workshop__subtitle.about__subtitle Deation & Evaluation - Best Way to Kick off Your Product Idea
+    .workshop__row
+        +workshop-box(
+            {
+                title: "Product Design Sprint",
+                description: "A five-day workshop that will help you answer crucial business questions",
+                img: "./assets/imgs/text/read-more--yellow.svg"
+            }
+        )
+        +workshop-box(
+            {
+                title: "Scoping Session",
+                description: "A workshop aimed at shaping your business idea, answering questions regarding project planning",
+                img: "./assets/imgs/text/read-more.svg"
+            }
+        )
+        +workshop-box(
+            {
+                title: "UX Review",
+                description: "An evaluation which will help you radically improve your product.",
+                img: "./assets/imgs/text/read-more.svg"
+            }
+        )
+        +workshop-box(
+            {
+                title: "Code Review",
+                description: "Do you know what one of the key secrets of success is what makes people successful in business",
+                img: "./assets/imgs/text/read-more.svg"
+            }
+        )

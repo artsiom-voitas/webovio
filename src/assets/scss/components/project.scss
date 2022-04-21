@@ -1,9 +1,6 @@
 .project {
     & {
-        border-top: 1px solid rgba(33, 56, 66, 0.0955529);
-        border-bottom: 1px solid rgba(33, 56, 66, 0.0955529);
         margin-top: 184px;
-        padding-top: 150px;
         padding-bottom: 185px;
     }
 
@@ -17,6 +14,8 @@
         justify-content: flex-start;
         margin-bottom: 110px;
         gap: 133px;
+        border-top: 1px solid rgba(33, 56, 66, 0.0955529);
+        padding-top: 150px;
     }
 
     &__img {
@@ -24,6 +23,7 @@
     }
 
     &__subtitle {
+        line-height: 48px;
         margin-bottom: 24px;
     }
 
