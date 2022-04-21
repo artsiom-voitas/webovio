@@ -1,4 +1,65 @@
-.project.container
-    .project__about.about 
+include ../mixins/commentary-item.pug
+include ../mixins/project-description.pug
+.project
+    .project__about.about.container
         h2.about__subtitle.about__subtitle--small We Have Some Awesomr Project.
         h3.about__description.about__description--small Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    .project__items
+        .project__item
+            .project__element
+                img.project__img(src="./assets/imgs/projects/the-wall-new-balenciaga.jpg", alt="The wall new Balenciaga.com")
+                .project__commentary--top    
+                    +commentary-item(
+                        {
+                            text: "“In my history of working with trade show vendors, I can honestly say that there is not one company that I've ever worked with that has better service than Exhibit Systems.”",
+                            img:'./assets/imgs/commentary/angel-armstrong.jpg',
+                            name: 'Angel Armstrong',
+                            post: "Founder & CEO, Google"
+                        }
+                    )
+            +project-description(
+                {
+                    subtitle: "The wall new Balenciaga.com",
+                    description_first_paragraph: "This article is floated online with an aim to help you find the best dvd printing solution.",
+                    description_second_paragraph: "Dvd printing is an important feature used by large and small DVD production houses to print information on DVDs." 
+                }
+            )
+        .project__item.project__item--left
+            +project-description(
+                {
+                    subtitle: "Is this the future of 3D model?",
+                    description_first_paragraph: "While it was just a TV show, that little speech at the beginning of the original Star Trek show really did do a good job of capturing our feelings about space.",
+                    description_second_paragraph: "It is those feelings that drive our love of astronomy and our desire to learn more and more about it. "
+                }
+            )
+            .project__element
+                img.project__img(src="./assets/imgs/projects/3d-model.jpg", alt="Is this the future of 3D model?")
+                .project__commentary--middle    
+                    +commentary-item(
+                        {
+                            text: "“I know they are going to be honest with me. I am not going to get a subpar product; I know it is going to be good. That is the number one advantage of working with Exhibit Systems.”",
+                            img:'./assets/imgs/commentary/lina-hart.jpg',
+                            name: 'Lina Hart',
+                            post: "Founder & CEO, Jico"
+                        }
+                    )
+
+        .project__item
+            .project__element
+                img.project__img(src="./assets/imgs/projects/online-booking.jpg", alt="Is this the future of Online Booking?")
+                .project__commentary--bottom   
+                    +commentary-item(
+                        {
+                            text: "“Exhibit Systems is not a provider. They are not a supplier. They are a partner with expertise in making trade shows effective.”",
+                            img:'./assets/imgs/commentary/eunice-oliver.jpg',
+                            name: 'Eunice Oliver',
+                            post: "Founder & CEO, Zeem"
+                        }
+                    )
+            +project-description(
+                {
+                    subtitle: "Is this the future of Online Booking",
+                    description_first_paragraph: "You should be able to find several indispensable facts about motivation in the following paragraphs.",
+                    description_second_paragraph: "If there’s at least one fact you didn’t know before, imagine the difference it might make." 
+                }
+            )

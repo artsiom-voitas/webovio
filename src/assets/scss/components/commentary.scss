@@ -6,17 +6,21 @@
         font-size: 16px;
         line-height: 26px;
         color: #4D533C;
+        max-width: 390px;
+        margin-bottom: 24px;
     }
     
     &__text--big {
         font-size: 24px;
         line-height: 40px;
         margin-bottom: 50px;
+        max-width: 426px;
     }
 
     &__img {
         border-radius: 50px;
         box-shadow: 20px 25px 43px rgba(0, 0, 0, 0.18);
+        margin-right: 14px;
     }
 
     &__name {
@@ -26,34 +30,49 @@
         font-size: 16px;
         line-height: 24px;
         color: #4D533C;
+        margin-bottom: 4px;
     }
 
     &__name--big {
         font-size: 22px;
         line-height: 33px;
+        margin-bottom: 6px;
     }
 
     &__post {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
         color: #152934;
     }
     
     &__post--big {
         font-size: 16px;
         line-height: 24px;
-        font-size: 14px;
-        line-height: 21px;
     }
 
-    &__person {
+    &__item {
         display: flex;
-        justify-content: space-between;
-        max-width: 220px;
+        align-items: center;
+        padding-bottom: 30px;
     }
 
-    &__person--big {
+    &__item--big {
         max-width: 358px;
+        padding-bottom: 0px;
     }
+
+    &__body {
+        background: #FFFFFF;
+        box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+        border-radius: 8px;
+        max-height: 243px;
+        max-width: 453px;
+        padding-left: 30px;
+        padding-right: 33px;
+        padding-top: 30px;
+    }
+
 }
