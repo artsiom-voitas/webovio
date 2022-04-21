@@ -1,0 +1,29 @@
+footer {
+    position: relative;
+    min-height: 920px;
+    padding: 310px 164px 30px 165px;
+    background-image: url(../imgs/footer-bg.jpg);
+}
+
+.banner {
+    & {
+        background: #FAFAFA;
+        box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+        padding: 70px 289px 71px 164px;
+        max-width: 1275px;
+        min-height: 362px;
+        position: absolute;
+        left: 0;
+        top: -172px;
+    }
+    
+    &__title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 74px;
+        color: #4D533C;
+        margin-bottom: 50px;
+    }
+}

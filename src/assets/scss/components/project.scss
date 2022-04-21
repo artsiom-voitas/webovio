@@ -20,6 +20,7 @@
 
     &__img {
         position: relative;
+        display: block;
     }
 
     &__subtitle {
@@ -48,7 +49,6 @@
     &__element {
         max-width: 776px;
         position: relative;
-        max-height: 550px;
     }
 
     &__commentary--top {

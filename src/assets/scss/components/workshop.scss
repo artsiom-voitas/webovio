@@ -1,7 +1,9 @@
 .workshop {
     & {
         padding-top: 149px;
+        padding-bottom: 322px;
         border-top: 1px solid rgba(33, 56, 66, 0.0955529);
+        position: relative;
     }
 
     &__subtitle {
