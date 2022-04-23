@@ -150,4 +150,13 @@ footer {
         margin-top: 32px;
         margin-right: 26px;
     }
+
+    &__links {
+        display: flex;
+        gap: 11px;
+        
+        & svg:hover {
+            fill: #FFD723;
+        }
+    }
 }
