@@ -55,6 +55,7 @@
 
     &__item {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         padding-bottom: 30px;
     }
@@ -68,8 +69,6 @@
         background: #FFFFFF;
         box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
         border-radius: 8px;
-        max-height: 243px;
-        max-width: 453px;
         padding-left: 30px;
         padding-right: 33px;
         padding-top: 30px;

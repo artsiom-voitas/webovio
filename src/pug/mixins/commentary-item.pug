@@ -1,9 +1,8 @@
 mixin commentary-item(args={})
-    .project__commentary.commentary
-        .commentary__body
-            p.commentary__text=args.text
-            .commentary__item
-                img.commentary__img(src=args.img, alt=args.name)
-                .commentary__caption
-                    h3.commentary__name=args.name
-                    h4.commentary__post=args.post
+    .commentary__body
+        p.commentary__text=args.text
+        .commentary__item
+            img.commentary__img(src=args.img, alt=args.name)
+            .commentary__caption
+                h3.commentary__name=args.name
+                h4.commentary__post=args.post
