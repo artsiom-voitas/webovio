@@ -109,3 +109,22 @@
         text-decoration: none;
     }
 }
+
+@media (max-width: 1023.75px) {
+    .menu {
+        &__body {
+            &.active {
+                width: 450px;
+            }
+        }
+
+        &__list {
+            padding-left: 20px;
+            padding-right: 45px;
+        }
+
+        &__link {
+            font-size: 14px;
+        }
+    }
+}

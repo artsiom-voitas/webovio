@@ -23,3 +23,34 @@
     }
     
 }
+
+
+@media (max-width: 1139.75px) {
+    .brands {
+        &__imgs {
+            margin-right: 65px;
+            gap: 50px;
+        }
+    }
+}
+
+@media (max-width: 1023.75px) {
+    .brands {
+        &__imgs {
+            margin-left: 10px;
+            margin-right: 10px;
+            gap: 25px;
+        }
+
+        &__imgs img {
+            // flex: 1 0 calc((100% - 40px)/5);
+            // max-width: calc((100% - 40px)/5);
+            max-width: 120px;
+        }
+    }
+    
+}
+
+@media (max-width: 767.75px) {
+
+}
