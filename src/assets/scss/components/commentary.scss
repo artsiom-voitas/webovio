@@ -61,7 +61,6 @@
     }
 
     &__item--big {
-        max-width: 358px;
         padding-bottom: 0px;
     }
 
@@ -74,4 +73,25 @@
         padding-top: 30px;
     }
 
+}
+
+@media (max-width: 1023.75px) {
+    .commentary {
+        &__item--big {
+        justify-content: center;
+        }
+    }
+}
+
+
+@media (max-width: 767.75px) {
+    .commentary {
+        &__text--big {
+            font-size: 22px;
+        }
+
+        &__name--big {
+            font-size: 20px;
+        }
+    }
 }

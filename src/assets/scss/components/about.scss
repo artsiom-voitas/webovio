@@ -61,3 +61,21 @@
         padding: 244px 8px 60px 40px;
     }
 }
+
+@media (max-width: 1023.75px) {
+    .about {
+        justify-content: center;
+        flex-direction: column;
+
+        &__section {
+            text-align: center;
+        }
+
+        &__commentary {
+            position: relative;
+            top: 0;
+            padding: 144px 8px 60px 8px;
+            text-align: center;
+        }
+    }
+}
