@@ -1,8 +1,10 @@
 footer
     .banner
         h2.banner__title Let’s make something amazing together.
-        a(href="#banner__box")
-            img(src="./assets/imgs/text/lets-get-started.svg", alt="Let's get started")
+        .link
+            a.link__text.link__text--uppercase(href="#banner__box") Let's get started
+                svg.link__triangle(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20')
+                    path(d='M15 10l-9 5V5l9 5z')
     .footer.container
         .footer__contacts
             .footer__phone 

@@ -38,17 +38,53 @@ img {
     display: inline-block;
 }
 
+.link {
+    &__text {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #D4D6D4;
+        text-decoration: underline;
+        display: flex;
+        align-items: center;
+    }
+
+    &__text--uppercase {
+        text-transform: uppercase;
+    }
+    
+    &__triangle {
+        height: 14px;
+        fill: #D4D6D4;
+        order: -1;
+    }
+
+    &:hover .link__text {
+        fill:  #FFD723;
+        color: #FFD723;
+    }
+
+    &:hover .link__triangle {
+        fill:  #FFD723;
+        color: #FFD723;
+    }
+}
+
+
+
+
 /* 1024px-1139.75px */
 @media (max-width: 1139.75px) {
     .container{
         max-width: 100%;
     }
-    
 }
 
 /* 768px-1023.75px */
 @media (max-width: 1023.75px) {
-    
+
 }
 
 /* 320px-767.75px*/

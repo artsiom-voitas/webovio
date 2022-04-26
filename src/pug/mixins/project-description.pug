@@ -3,5 +3,7 @@ mixin project-description(args={})
         h2.about__subtitle.project__subtitle=args.subtitle
         h3.about__description.project__description=args.description_first_paragraph
         h3.about__description.project__description=args.description_second_paragraph
-        a(href="#") 
-            img(src="./assets/imgs/text/see-case-study.svg", alt="See Case Study")
+        .link
+            a.link__text(href="#") See Case Study
+                svg.link__triangle(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20')
+                    path(d='M15 10l-9 5V5l9 5z')

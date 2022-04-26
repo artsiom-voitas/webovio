@@ -100,6 +100,10 @@
 
         &__section {
             text-align: center;
+            
+            .link__text {
+                justify-content: center;
+            }
         }
     }
 

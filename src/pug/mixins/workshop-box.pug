@@ -2,5 +2,7 @@ mixin workshop-box(args={})
     .workshop__box
         h3.workshop__title!=args.title
         h4.workshop__description=args.description
-        a.workshop__link(href="#workshop__box")
-            img(src=args.img, alt=args.title) 
+        .link.workshop__link
+            a.link__text(href="#workshop__box") Read More
+                svg.link__triangle(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20')
+                    path(d='M15 10l-9 5V5l9 5z')
