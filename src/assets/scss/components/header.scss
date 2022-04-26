@@ -93,9 +93,8 @@
 
     &__list {
         display: flex;
-        justify-content: space-between;
-        padding-left: 80px;
-        padding-right: 80px;
+        justify-content: center;
+        gap: 50px;
     }
 
 
@@ -119,8 +118,7 @@
         }
 
         &__list {
-            padding-left: 20px;
-            padding-right: 45px;
+            gap: 12px;
         }
 
         &__link {
