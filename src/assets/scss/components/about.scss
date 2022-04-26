@@ -62,6 +62,8 @@
     }
 }
 
+
+
 @media (max-width: 1023.75px) {
     .about {
         justify-content: center;
@@ -69,6 +71,10 @@
 
         &__section {
             text-align: center;
+
+            .link__text {
+                justify-content: center;
+            }
         }
 
         &__commentary {

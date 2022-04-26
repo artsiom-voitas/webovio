@@ -86,6 +86,7 @@
             justify-content: space-between;
             border-bottom: 1px solid rgba(33, 56, 66, 0.0955529);
             padding-top: 35px;
+            margin-bottom: 0;
         }
 
         &__item {
@@ -94,12 +95,20 @@
             justify-content: center;
         }
 
+        &__item--left{
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
         &__description {
             max-width: none;
         }
 
         &__section {
             text-align: center;
+            order: -1;
+            margin-top: 0;
+            margin-bottom: 100px;
             
             .link__text {
                 justify-content: center;
@@ -110,7 +119,6 @@
     .about {
         &__section {
             margin-top: 100px;
-            order: 1;
         }
 
         &__description--small {
