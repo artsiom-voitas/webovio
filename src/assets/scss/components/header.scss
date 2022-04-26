@@ -142,15 +142,17 @@
             top: 86px;
 
             &.active {
-                width: calc(100% - 20px);
+                width: calc(100% - 30px);
                 padding-left: 40px;
                 padding-right: 0px;
+                overflow: hidden;
             }
         }
 
         &__list {
+            gap: 15px;
             padding-left: 10px;
-            padding-right: 0px;
+            padding-right: 10px;
         }
 
 
