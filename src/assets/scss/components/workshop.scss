@@ -23,6 +23,7 @@
         flex-wrap: wrap;
         flex-direction: column;
         max-width: 255px;
+        max-width: calc((100% - 90px)/4);
         min-height: 309px;
         padding-bottom: 36px;
     }
@@ -52,5 +53,65 @@
     &__link {
         margin-top: auto;
         padding-left: 30px;
+    }
+}
+
+@media (max-width: 1139.75px) {
+    .workshop {
+        &__subtitle {
+            max-width: 100%;
+            text-align: center;
+        }
+
+        &__title {
+            margin-right: 20px;
+        }
+        
+        &__row {
+            gap: 25px;
+        }
+        &__box {
+            max-width: calc((100% - 75px)/4);
+        }
+        
+    }
+}
+
+@media (max-width: 1023.75px) {
+    .workshop {
+        &__box {
+            max-width: calc((100% - 150px)/2);
+        }
+
+        &__row {
+            row-gap: 0;
+            column-gap: 150px;
+        }
+    }
+}
+
+@media (max-width: 767.75px) {
+    .workshop {
+        &__box {
+            max-width: calc((100% - 60px)/1);
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__row {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        &__link {
+            padding-left: 0;
+        }
+
+        &__title,
+        &__description {
+            margin-left: 0;
+            margin-right: 0;
+        }
     }
 }
