@@ -34,3 +34,13 @@
         margin-bottom: 45px;
     }
 }
+
+
+@media (max-width: 767.75px) {
+    .intro {
+        &__title {
+            max-width: 100%;
+            font-size: 45px;
+        }
+    }
+}

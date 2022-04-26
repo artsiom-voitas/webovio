@@ -1,56 +1,39 @@
-.brands {
-    &__body {
-        min-height: 227px;
-        background: #FFFFFF;
-        box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
-        border-radius: 2px;
-        position: absolute;
-        right: 0;
-        bottom: -124px;
-    }
+.swiper {
+    min-height: 227px;
+    background: #FFFFFF;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    bottom: -124px;
+    max-width: 1276px;
 
     &__imgs {
-        margin-left: 65px;
-        margin-right: 166px;
-        margin-top: 60px;
         display: flex;
-        flex-wrap: wrap;
-        gap: 66px;
-    }
-
-    &__imgs--opacity {
+        justify-content: space-between;
+        margin-top: 60px;
         opacity: 0.626;
     }
-    
+
 }
 
-
 @media (max-width: 1139.75px) {
-    .brands {
-        &__imgs {
-            margin-right: 65px;
-            gap: 50px;
-        }
+    .swiper {
+        max-width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 }
 
 @media (max-width: 1023.75px) {
-    .brands {
-        &__imgs {
-            margin-left: 10px;
-            margin-right: 10px;
-            gap: 25px;
-        }
-
-        &__imgs img {
-            // flex: 1 0 calc((100% - 40px)/5);
-            // max-width: calc((100% - 40px)/5);
-            max-width: 120px;
-        }
+    .swiper {
+        
     }
-    
 }
 
 @media (max-width: 767.75px) {
-
+    .swiper {
+        padding-right: 0px;
+        padding-left: 25%;
+    }
 }

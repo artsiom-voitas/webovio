@@ -53,5 +53,7 @@ img {
 
 /* 320px-767.75px*/
 @media (max-width: 767.75px) {
-
+    .container {
+        padding: 0 10px;
+    }
 }

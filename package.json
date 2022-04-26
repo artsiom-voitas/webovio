@@ -30,6 +30,6 @@
     "sass": "^1.50.0"
   },
   "dependencies": {
-    "swiper": "^8.1.1"
+    "swiper": "^8.1.4"
   }
 }
