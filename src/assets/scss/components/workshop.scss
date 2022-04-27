@@ -23,7 +23,6 @@
         flex-wrap: wrap;
         flex-direction: column;
         max-width: 255px;
-        max-width: calc((100% - 90px)/4);
         min-height: 309px;
         padding-bottom: 36px;
     }
@@ -66,25 +65,19 @@
         &__title {
             margin-right: 20px;
         }
-        
+
         &__row {
-            gap: 25px;
+            gap: 0;
+            flex-wrap: nowrap;
         }
-        &__box {
-            max-width: calc((100% - 75px)/4);
-        }
-        
     }
 }
 
 @media (max-width: 1023.75px) {
     .workshop {
-        &__box {
-            max-width: calc((100% - 150px)/2);
-        }
-
         &__row {
-            row-gap: 0;
+            flex-wrap: wrap;
+            justify-content: space-around;
             column-gap: 150px;
         }
     }
@@ -93,7 +86,6 @@
 @media (max-width: 767.75px) {
     .workshop {
         &__box {
-            max-width: 215px;
             justify-content: center;
             align-items: center;
         }
