@@ -93,7 +93,7 @@
 @media (max-width: 767.75px) {
     .workshop {
         &__box {
-            max-width: calc((100% - 60px)/1);
+            max-width: 215px;
             justify-content: center;
             align-items: center;
         }
