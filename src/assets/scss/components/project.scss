@@ -70,16 +70,6 @@
     }
 }
 
-.about {
-    &__subtitle--small {
-        max-width: 325px;
-        line-height: 54px;
-    }
-    &__description--small {
-        max-width: 518px;
-    }
-}
-
 @media (max-width: 1139.75px) {
     .project {
         &__about {
@@ -113,16 +103,6 @@
             .link__text {
                 justify-content: center;
             }
-        }
-    }
-
-    .about {
-        &__section {
-            margin-top: 100px;
-        }
-
-        &__description--small {
-            max-width: 530px;
         }
     }
 }

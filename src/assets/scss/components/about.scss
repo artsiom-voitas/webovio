@@ -42,6 +42,14 @@
         z-index: -1;
     }
 
+    &__subtitle--small {
+        max-width: 335px;
+        line-height: 54px;
+    }
+    &__description--small {
+        max-width: 518px;
+    }
+
     &__description {
         font-family: 'Poppins';
         font-style: normal;
@@ -63,25 +71,36 @@
 }
 
 
+@media (max-width: 1139.75px) {
+    .about {
+        &__section {
+            margin-top: 100px;
+        }
+    
+        &__description--small {
+            max-width: 530px;
+        }
+    }
+}
 
 @media (max-width: 1023.75px) {
     .about {
         justify-content: center;
         flex-direction: column;
-
+            
         &__section {
-            text-align: center;
+                text-align: center;
 
-            .link__text {
-                justify-content: center;
+                .link__text {
+                    justify-content: center;
+                }
             }
-        }
 
-        &__commentary {
-            position: relative;
-            top: 0;
-            padding: 144px 8px 60px 8px;
-            text-align: center;
-        }
+            &__commentary {
+                position: relative;
+                top: 0;
+                padding: 144px 8px 60px 8px;
+                text-align: center;
+            }
     }
 }
