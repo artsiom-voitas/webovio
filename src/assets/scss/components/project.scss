@@ -83,6 +83,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            margin-top: 65px;
         }
 
         &__item--left{
@@ -144,10 +145,6 @@
         &__commentary--middle {
             position: relative;
             left: 0;
-        }
-
-        &__item {
-            margin-top: 65px;
         }
 
         &__item--left {
