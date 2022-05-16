@@ -1,13 +1,11 @@
 .header {
-    & {
-        max-width: 1140px;
-        padding-top: 24px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 121px;
-        position: relative;
-    }
+    max-width: 1140px;
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 121px;
+    position: relative;
 }
 
 .menu {

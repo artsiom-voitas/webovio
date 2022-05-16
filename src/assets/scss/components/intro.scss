@@ -1,13 +1,11 @@
 .intro {
-    & {
-        background-image: url(../imgs/intro/intro-background.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 1015px;
-        position: relative;
-        z-index: 1;
-        margin-bottom: 244px;
-    }
+    background-image: url(../imgs/intro/intro-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1015px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 244px;
 
     &__subtitle {
         font-size: 14px;
